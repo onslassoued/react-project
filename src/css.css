@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poltawski+Nowy:wght@700&family=Raleway:ital,wght@0,200;1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+.des{
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+    
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #9C9C9C;
+}
+.ti{
+    color: #197AE5;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+}
+.vd{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    margin-top: 100px;
+}
+.Search input{
+    border-color: transparent !important;
+    text-decoration: underline;
+}
+.Search{
+    width: 184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: rgb(254, 252, 252, .90);
+    box-shadow: 0 0px 5px 0 #e5e4e2;
+
+}
+
+.nav {
+    display: flex;
+    grid-column: 3;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    gap: 40px;
+}
+
+.title h3 {
+    color: #197AE5;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+
+}
+
+.title p {
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #9C9C9C;
+}
+
+
+
+
+
+.nav li {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #197AE5;
+}
+
+
+.nav li :hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #197AE5;
+    transition: 1s;
+
+}
+
+
+.home {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0.5rem;
+    color: white !important;
+    background-color: #197AE5
+}
+
+/* .nav li:hover{
+    background-color: #197AE5;
+    color: white;
+    border-radius: 5px;
+    transition: all 1s;
+} */
+
+
+
+.content_section {
+    background-image: url(destinaion/Sidi-Bou-Said.png);
+    height: 630px;
+    margin-top: 0px !important;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+
+}
+
+
+#tunisia {
+    text-align: center;
+    color: rgb(254, 252, 252, .90);
+    /* margin-top: 90px; */
+    font-weight: bolder;
+    font-size: 250px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.TUN-on {
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 30px;
+
+}
+
+.TUN-on h1 {
+
+    margin-top: 4px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: x-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.mobile {
+    display: flex;
+}
+
+
+.TUN-on h3 {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-size: x-small;
+    margin-top: 0px;
+    margin-left: 11px;
+    margin-bottom: 2px;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap !important;
+    margin-left: 33px;
+    margin: 12px;
+    border-radius: 3%;
+    width: 311px;
+   
+
+
+}
+
+.imgs:hover {
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 0px; */
+  
+
+}
+
+.imgs img {
+    border-radius: 6px 6px 0 0;
+    margin-right: 0px;
+    width: 311px;
+    height: 280px;
+  
+
+}
+
+.gallery {
+    text-decoration: none !important;
+   
+}
+
+.form {
+    width: 75%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.imgs h3 {
+    margin-right: 70px;
+    margin-left: 18px;
+    margin-top: 15px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+
+}
+
+.imgs p {
+    font-size: small;
+    width: 60%;
+    padding-left: 20px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #9C9C9C;
+
+
+}
+
+.us {
+
+    background-image: url(destinaion/djerba2.jpg);
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 520px;
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 13%;
+    margin-top: 80px;
+}
+
+.content h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+.content p {
+    width: 63%;
+    margin-left: 27px;
+}
+
+.us h2 {
+    padding-top: 50px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+
+.special p {
+    margin-top: 29px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #E4E4E4;
+}
+
+.paragraphe {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 40px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #E4E4E4;
+
+
+}
+
+
+.special h3 {
+    margin-top: 12px;
+
+    width: 77%;
+}
+
+.content h3 {
+    padding-right: 1px;
+    margin-left: 15px;
+}
+
+.spec h3 {
+    padding-left: 22px;
+}
+
+.content div p {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #E4E4E4;
+
+}
+
+.content div {
+    margin-left: 5px;
+}
+
+.content_section {
+    background-image: url(destinaion/Sidi-Bou-Said.png);
+    height: 630px;
+    margin-top: 0px !important;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+
+}
+
+.footer {
+
+    margin-top: 160px;
+    margin-bottom: 0px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+
+
+}
+
+
+.contact {
+     margin-left: 21%;
+    margin-right: 15%; 
+   
+
+}
+
+.contact a {
+    margin: 19px;
+
+
+}
+
+.footer p {
+    font-size: x-small;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    color: #84838B;
+   
+
+}
+
+.contact a img {
+    width: 20px;
+    color: #9C9C9C;
+}
+
+
+
+
+
+
+
+
+
+
+/* .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 33px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3%;
+    width: 311px;
+    margin-bottom: 27px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+
+}
+
+.imgs p {
+    font-size: small;
+    width: 80%;
+    margin-left: 20px;
+    padding-bottom: 12px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    color: #9C9C9C;
+
+}
+
+.imgs h3 {
+    margin-right: 70px;
+    margin-left: 18px;
+    margin-top: 15px;
+    color: #197AE5;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+
+} */
